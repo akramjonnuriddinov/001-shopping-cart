@@ -11,8 +11,54 @@
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-    
-
+    <div class="wrapper">
+        <header class="site-header">
+            <div class="container site-header__container">
+                <h1 class="site-header__title">Cart</h1>
+            </div>
+        </header>
+        <main class="main-content">
+            <section class="cart">
+                <div class="cart__container container">
+                    <ul class="cart__list">
+                        <li class="cart__item">
+                            <p class="cart__number">#1</p>
+                            <h3 class="cart__title">Nike Air</h3>
+                            <p class="cart__count js-cart-count">1</p>
+                            <button class="cart__btn js-incr-btn">+</button>
+                            <button class="cart__btn js-decr-btn">-</button>
+                            <p class="cart__price js-cart-price">50</p>
+                            <button class="cart__delete js-delete-btn">delete</button>
+                        </li>
+                        <li class="cart__item">
+                            <p class="cart__number">#2</p>
+                            <h3 class="cart__title">Adidas Superstar</h3>
+                            <p class="cart__count js-cart-count">1</p>
+                            <button class="cart__btn js-incr-btn">+</button>
+                            <button class="cart__btn js-decr-btn">-</button>
+                            <p class="cart__price js-cart-price">120</p>
+                            <button class="cart__delete js-delete-btn">delete</button>
+                        </li>
+                        <li class="cart__item">
+                            <p class="cart__number">#3</p>
+                            <h3 class="cart__title">Puma St Runner</h3>
+                            <p class="cart__count js-cart-count">1</p>
+                            <button class="cart__btn js-incr-btn">+</button>
+                            <button class="cart__btn js-decr-btn">-</button>
+                            <p class="cart__price js-cart-price">130</p>
+                            <button class="cart__delete js-delete-btn">delete</button>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section class="price">
+                <div class="container price__container">
+                    <h2 class="price__title">Total:</h2>
+                    <p class="price__number"></p>
+                </div>
+            </section>
+        </main>
+    </div>
     
     <script src="js/main.js"></script>
 </body>
