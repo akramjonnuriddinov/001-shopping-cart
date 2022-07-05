@@ -96,6 +96,8 @@ img {
 
 .cart__count {
     margin-right: 16px;
+    max-width: 20px;
+    width: 100%;
 }
 
 .cart__btn {
@@ -121,4 +123,5 @@ img {
     color: #fff;
     cursor: pointer;
     text-transform: capitalize;
+    margin-left: auto;
 }
